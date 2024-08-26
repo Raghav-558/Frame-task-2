@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+}
+
+.op-60 {
+    opacity: 60%;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.lh-56 {
+    line-height: 56px;
+}
+
+.lh-25 {
+    line-height: 25px;
+}
+
+.green {
+    color: #14A800;
+}
+
+.grey {
+    color: #111111;
+}
+
+.mx-565 {
+    max-width: 565px;
+    margin: 0 auto;
+}
+
+/* .mx-263 {
+    max-width: 263px;
+    margin: 0 auto;
+} */
+
+.gap {
+    gap: 12px !important;
+}
+
+.none {
+    text-decoration: none;
+}
+
+.view svg {
+
+    transition: all 200ms linear;
+}
+
+.view:hover {
+    color: red !important;
+
+    path {
+        fill: red;
+    }
+}
+
+@media (max-width:576px) {
+    .mb-25 {
+        margin-bottom: 25px !important;
+    }
+
+    .fs-32 {
+        font-size: 32px;
+    }
+
+    .fs-14 {
+        font-size: 14px;
+    }
+}
